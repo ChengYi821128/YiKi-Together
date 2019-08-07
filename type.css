@@ -1,0 +1,29 @@
+#vicky{
+  margin: 100px;
+  color: gray;
+  position: absolute;
+  z-index:4;
+  left: 50px;
+  top:0;
+}
+#messages{
+  color: gray;
+  position: absolute;
+  z-index:4;
+  left: 200px;
+  top:450px;
+}
+img{
+  /* display: inline; */
+  /* float: right; */
+  position: absolute;
+  text-align:right;
+  z-index:3;
+  right: 100px;
+  top:50px;
+  opacity: 1;
+  transition: opacity 20s;
+}
+img[data-src]{
+  opacity: 0;
+}
