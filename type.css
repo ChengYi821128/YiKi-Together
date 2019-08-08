@@ -80,7 +80,7 @@ img[data-src]{
     width: 380px;
     z-index:3;
     left: 15px;
-    top:380px;
+    top:400px;
     opacity: 1;
     transition: opacity 20s;
   }
