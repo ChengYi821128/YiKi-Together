@@ -52,7 +52,7 @@ CHERRY_BLOSSOM.prototype = {
   FAR_LIMIT : 600,
   MAX_RIPPLE_COUNT : 100,
   RIPPLE_RADIUS : 100,
-  SURFACE_RATE : 0.8,
+  SURFACE_RATE : 0.95,
   SINK_OFFSET : 20,
 
   init : function(isRandom){

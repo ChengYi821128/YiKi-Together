@@ -1,5 +1,5 @@
 #vicky{
-  margin: 100px;
+  margin: 70px;
   color: gray;
   position: absolute;
   z-index:4;
@@ -31,15 +31,18 @@ img[data-src]{
     height: : 10%;
     width: 50%;
   } */
+  #vicky{
+    font-size: 20px;
+  }
   img{
     /* display: inline; */
     /* float: right; */
     position:absolute;
-    height: 450px;
-    width: 600px;
+    height: 510px;
+    width: 680px;
     z-index:3;
-    right: 100px;
-    top:40px;
+    right: 75px;
+    top:75px;
     opacity: 1;
     transition: opacity 20s;
   }
@@ -47,8 +50,8 @@ img[data-src]{
     color: gray;
     position: absolute;
     z-index:4;
-    left: 250px;
-    top:500px;
+    left: 200px;
+    top:520px;
   }
   #elapseClock {
       /* text-align: right; */
