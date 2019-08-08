@@ -52,14 +52,14 @@ CHERRY_BLOSSOM.prototype = {
   FAR_LIMIT : 600,
   MAX_RIPPLE_COUNT : 100,
   RIPPLE_RADIUS : 100,
-  SURFACE_RATE : 0.5,
+  SURFACE_RATE : 0.8,
   SINK_OFFSET : 20,
 
   init : function(isRandom){
     this.x = this.getRandomValue(-this.renderer.width, this.renderer.width);
     this.y = isRandom ? this.getRandomValue(0, this.renderer.height) : this.renderer.height * 1.5;
     this.z = this.getRandomValue(0, this.FAR_LIMIT);
-    this.vx = this.getRandomValue(-3, 6);
+    this.vx = this.getRandomValue(-3, 5);
     this.vy = -2;
     this.theta = this.getRandomValue(0, Math.PI * 2);
     this.phi = this.getRandomValue(0, Math.PI * 2);

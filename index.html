@@ -16,7 +16,7 @@
     src: url('digital.ttf') format("truetype");
   }
 </style>
-<link href="default.css" type="text/css" rel="stylesheet">
+<!-- <link href="default.css" type="text/css" rel="stylesheet"> -->
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="garden.js"></script>
 <script type="text/javascript" src="functions.js"></script>
@@ -49,12 +49,12 @@ html, body{
     <p>
       惠琪：<br>
       <br>
-         我們在茫茫人海中相遇<br>
-         個性 想法如此相似<br>
+         茫茫人海之中遇見彼此<br>
+         我們如此相似<br>
          <br>
 
          世界上最幸運的事情之一就是<br>
-         兩個人深愛著彼此<br>
+         兩個人都深愛著對方<br>
          <br>
 
          相遇 相愛 長相廝守<br>
@@ -66,21 +66,10 @@ html, body{
 
       情人節快樂<br>
       我愛妳❤<br>
-    </p>
-    <!-- <script language='javascript' type='text/javascript'>
-    $(document).ready(
-     function()
-     {
-      $('#one').delay(4000).fadeout(2000).hide(0);
-     }
-    );
-    </script> -->
-
-    <br><br><br>
   </div>
 
-  <div id="messages">
-    We have met for
+  <div id="messages" style="display:none;">
+    We have met for <br>
     <div id="elapseClock" style="display:none;"></div>
   </div>
   <script language='javascript' type='text/javascript'>
@@ -91,11 +80,12 @@ html, body{
     *1.delay函式是jquery 1.4.2新增的函式
     *2.hide函式裡必須放一個0,不然延時不起作用
     */
-    $('#elapseClock').delay(6000).fadeIn(2000).show(0);
+    $('#messages').delay(18000).fadeIn(2000).show(0);
+    $('#elapseClock').delay(18000).fadeIn(2000).show(0);
    }
   );
   </script>
-  <div id="img">
+  <div id="img" >
     <a><img data-src="to2.png" alt=""></a>
   </div>
 

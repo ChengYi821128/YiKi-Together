@@ -6,24 +6,101 @@
   left: 50px;
   top:0;
 }
-#messages{
-  color: gray;
-  position: absolute;
-  z-index:4;
-  left: 250px;
-  top:450px;
+#garden {
+    width: 0;
+    height: 0;
 }
-img{
-  /* display: inline; */
-  /* float: right; */
-  position: absolute;
-  text-align:right;
+
+/* img{
+  position:fixed;
+  height: 450px;
+  width: 600px;
   z-index:3;
   right: 100px;
-  top:50px;
+  top:40px;
   opacity: 1;
   transition: opacity 20s;
-}
+} */
+
 img[data-src]{
   opacity: 0;
+}
+
+@media screen and (max-width:12000px) {
+  /* img{
+    height: : 10%;
+    width: 50%;
+  } */
+  img{
+    /* display: inline; */
+    /* float: right; */
+    position:absolute;
+    height: 450px;
+    width: 600px;
+    z-index:3;
+    right: 100px;
+    top:40px;
+    opacity: 1;
+    transition: opacity 20s;
+  }
+  #messages{
+    color: gray;
+    position: absolute;
+    z-index:4;
+    left: 250px;
+    top:500px;
+  }
+  #elapseClock {
+      /* text-align: right; */
+      font-size: 18px;
+      /* margin-top: 10px;
+      margin-bottom: 10px */
+  }
+  #elapseClock .digit {
+      font-family: "digit";
+      font-size: 36px;
+  }
+
+}
+
+/* @media screen and (max-width:768px) {
+  img{
+    height: : 10%;
+    width: 75%;
+  }
+} */
+
+@media screen and (max-width:768px) {
+  img{
+    position:absolute;
+    height: 300px;
+    width: 380px;
+    z-index:3;
+    left: 15px;
+    top:290px;
+    opacity: 1;
+    transition: opacity 20s;
+  }
+  #vicky{
+    margin: 15px;
+    top: 20px;
+    font-size: 10px;
+  }
+  #messages{
+    position: absolute;
+    left: 50px;
+    top:630px;
+    font-size: 14px;
+  }
+  #elapseClock {
+      font-size: 10px;
+  }
+  #elapseClock .digit {
+      font-family: "digit";
+      font-size: 18px;
+
+  }
+  /* #jsi-cherry-container{
+    top: 70px;
+  } */
 }
