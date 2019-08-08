@@ -1,14 +1,14 @@
-var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
-var clientWidth = $(window).width();
-var clientHeight = $(window).height();
-
-$(window).resize(function () {
-	var b = $(window).width();
-	var a = $(window).height();
-	if (b != clientWidth && a != clientHeight) {
-		location.replace(location)
-	}
-});
+// var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
+// var clientWidth = $(window).width();
+// var clientHeight = $(window).height();
+//
+// $(window).resize(function () {
+// 	var b = $(window).width();
+// 	var a = $(window).height();
+// 	if (b != clientWidth && a != clientHeight) {
+// 		location.replace(location)
+// 	}
+// });
 
 function getHeartPoint(c) {
 	var b = c / Math.PI;
