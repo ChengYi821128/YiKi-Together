@@ -84,12 +84,12 @@ img[data-src]{
   #vicky{
     margin: 15px;
     top: 20px;
-    font-size: 10px;
+    font-size: 15px;
   }
   #messages{
     position: absolute;
     left: 65px;
-    top:330px;
+    top:340px;
     font-size: 14px;
   }
   #elapseClock {
