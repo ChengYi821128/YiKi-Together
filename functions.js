@@ -10,6 +10,17 @@
 // 	}
 // });
 
+
+// session控制音乐
+        $(document).ready(function () {
+            if (!sessionStorage.getItem("bgm")) {
+                 $("#bgmvideo").append(
+                    '<audio src="to.mp3" autoplay hidden></audio>'
+                );
+                sessionStorage.setItem("bgm", 1)
+            }
+        })
+
 function getHeartPoint(c) {
 	var b = c / Math.PI;
 	var a = 19.5 * (16 * Math.pow(Math.sin(b), 3));
