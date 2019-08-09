@@ -22,9 +22,9 @@
   transition: opacity 20s;
 } */
 
-img[data-src]{
+/* img[data-src]{
   opacity: 0;
-}
+} */
 
 @media screen and (max-width:12000px) {
   /* img{
@@ -34,7 +34,7 @@ img[data-src]{
   #vicky{
     font-size: 20px;
   }
-  img{
+  #img{
     /* display: inline; */
     /* float: right; */
     position:absolute;
@@ -74,7 +74,7 @@ img[data-src]{
 } */
 
 @media screen and (max-width:768px) {
-  img{
+  #img{
     position:absolute;
     height: 300px;
     width: 380px;
