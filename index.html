@@ -20,8 +20,19 @@
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="garden.js"></script>
 <script type="text/javascript" src="functions.js"></script>
-<title>憶琪</title>
 
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+  $('.flexslider').flexslider();
+});
+</script>
+<title>憶琪</title>
+<style type="text/css">
+　　　　ul,li{list-style:none;}
+</style>
 <style>
 html, body{
   width: 100%;
@@ -81,9 +92,36 @@ html, body{
    }
   );
   </script>
-  <div id="img" >
-    <a><img data-src="to2.png" alt=""></a>
+  <div id="img" class="flexslider">
+    <ul class="slides">
+      <!-- <li>
+        <img data-src="to2.png" alt="">
+      </li> -->
+      <li>
+        <img src="slide1.png" />
+      </li>
+      <li>
+        <img src="slide2.png" />
+      </li>
+      <li>
+        <img src="slide3.png" />
+      </li>
+    </ul>
   </div>
+
+  <!-- <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="slide1.jpg" />
+    </li>
+    <li>
+      <img src="slide2.jpg" />
+    </li>
+    <li>
+      <img src="slide3.jpg" />
+    </li>
+  </ul>
+</div> -->
 
 
 
